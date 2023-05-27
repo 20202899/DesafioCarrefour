@@ -10,23 +10,13 @@
 		6AB2CA852A22703900030B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CA842A22703900030B31 /* AppDelegate.swift */; };
 		6AB2CA872A22703900030B31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CA862A22703900030B31 /* SceneDelegate.swift */; };
 		6AB2CA892A22703900030B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CA882A22703900030B31 /* ViewController.swift */; };
-		6AB2CA8C2A22703900030B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB2CA8A2A22703900030B31 /* Main.storyboard */; };
 		6AB2CA8E2A22703B00030B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB2CA8D2A22703B00030B31 /* Assets.xcassets */; };
 		6AB2CA912A22703B00030B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB2CA8F2A22703B00030B31 /* LaunchScreen.storyboard */; };
 		6AB2CA9C2A22703B00030B31 /* DesafioCarrefourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CA9B2A22703B00030B31 /* DesafioCarrefourTests.swift */; };
-		6AB2CAA62A22703B00030B31 /* DesafioCarrefourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAA52A22703B00030B31 /* DesafioCarrefourUITests.swift */; };
-		6AB2CAA82A22703B00030B31 /* DesafioCarrefourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAA72A22703B00030B31 /* DesafioCarrefourUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		6AB2CA982A22703B00030B31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6AB2CA792A22703900030B31 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6AB2CA802A22703900030B31;
-			remoteInfo = DesafioCarrefour;
-		};
-		6AB2CAA22A22703B00030B31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6AB2CA792A22703900030B31 /* Project object */;
 			proxyType = 1;
@@ -40,15 +30,11 @@
 		6AB2CA842A22703900030B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AB2CA862A22703900030B31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6AB2CA882A22703900030B31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6AB2CA8B2A22703900030B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6AB2CA8D2A22703B00030B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AB2CA902A22703B00030B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AB2CA922A22703B00030B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AB2CA972A22703B00030B31 /* DesafioCarrefourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioCarrefourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB2CA9B2A22703B00030B31 /* DesafioCarrefourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCarrefourTests.swift; sourceTree = "<group>"; };
-		6AB2CAA12A22703B00030B31 /* DesafioCarrefourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioCarrefourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AB2CAA52A22703B00030B31 /* DesafioCarrefourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCarrefourUITests.swift; sourceTree = "<group>"; };
-		6AB2CAA72A22703B00030B31 /* DesafioCarrefourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCarrefourUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AB2CA9E2A22703B00030B31 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +60,6 @@
 			children = (
 				6AB2CA832A22703900030B31 /* DesafioCarrefour */,
 				6AB2CA9A2A22703B00030B31 /* DesafioCarrefourTests */,
-				6AB2CAA42A22703B00030B31 /* DesafioCarrefourUITests */,
 				6AB2CA822A22703900030B31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +69,6 @@
 			children = (
 				6AB2CA812A22703900030B31 /* DesafioCarrefour.app */,
 				6AB2CA972A22703B00030B31 /* DesafioCarrefourTests.xctest */,
-				6AB2CAA12A22703B00030B31 /* DesafioCarrefourUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +76,10 @@
 		6AB2CA832A22703900030B31 /* DesafioCarrefour */ = {
 			isa = PBXGroup;
 			children = (
-				6AB2CA842A22703900030B31 /* AppDelegate.swift */,
-				6AB2CA862A22703900030B31 /* SceneDelegate.swift */,
-				6AB2CA882A22703900030B31 /* ViewController.swift */,
-				6AB2CA8A2A22703900030B31 /* Main.storyboard */,
-				6AB2CA8D2A22703B00030B31 /* Assets.xcassets */,
-				6AB2CA8F2A22703B00030B31 /* LaunchScreen.storyboard */,
-				6AB2CA922A22703B00030B31 /* Info.plist */,
+				6AB2CAB42A22705400030B31 /* System */,
+				6AB2CAB62A22707100030B31 /* Resources */,
+				6AB2CAB82A22710C00030B31 /* Network */,
+				6AB2CAB52A22706900030B31 /* App */,
 			);
 			path = DesafioCarrefour;
 			sourceTree = "<group>";
@@ -118,13 +92,46 @@
 			path = DesafioCarrefourTests;
 			sourceTree = "<group>";
 		};
-		6AB2CAA42A22703B00030B31 /* DesafioCarrefourUITests */ = {
+		6AB2CAB42A22705400030B31 /* System */ = {
 			isa = PBXGroup;
 			children = (
-				6AB2CAA52A22703B00030B31 /* DesafioCarrefourUITests.swift */,
-				6AB2CAA72A22703B00030B31 /* DesafioCarrefourUITestsLaunchTests.swift */,
+				6AB2CA922A22703B00030B31 /* Info.plist */,
+				6AB2CA842A22703900030B31 /* AppDelegate.swift */,
+				6AB2CA862A22703900030B31 /* SceneDelegate.swift */,
 			);
-			path = DesafioCarrefourUITests;
+			path = System;
+			sourceTree = "<group>";
+		};
+		6AB2CAB52A22706900030B31 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CAB72A22709300030B31 /* Scenes */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6AB2CAB62A22707100030B31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CA8D2A22703B00030B31 /* Assets.xcassets */,
+				6AB2CA8F2A22703B00030B31 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6AB2CAB72A22709300030B31 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CA882A22703900030B31 /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6AB2CAB82A22710C00030B31 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +172,6 @@
 			productReference = 6AB2CA972A22703B00030B31 /* DesafioCarrefourTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6AB2CAA02A22703B00030B31 /* DesafioCarrefourUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6AB2CAB12A22703B00030B31 /* Build configuration list for PBXNativeTarget "DesafioCarrefourUITests" */;
-			buildPhases = (
-				6AB2CA9D2A22703B00030B31 /* Sources */,
-				6AB2CA9E2A22703B00030B31 /* Frameworks */,
-				6AB2CA9F2A22703B00030B31 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6AB2CAA32A22703B00030B31 /* PBXTargetDependency */,
-			);
-			name = DesafioCarrefourUITests;
-			productName = DesafioCarrefourUITests;
-			productReference = 6AB2CAA12A22703B00030B31 /* DesafioCarrefourUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +186,6 @@
 						CreatedOnToolsVersion = 14.3;
 					};
 					6AB2CA962A22703B00030B31 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 6AB2CA802A22703900030B31;
-					};
-					6AB2CAA02A22703B00030B31 = {
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = 6AB2CA802A22703900030B31;
 					};
@@ -221,7 +206,6 @@
 			targets = (
 				6AB2CA802A22703900030B31 /* DesafioCarrefour */,
 				6AB2CA962A22703B00030B31 /* DesafioCarrefourTests */,
-				6AB2CAA02A22703B00030B31 /* DesafioCarrefourUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +217,10 @@
 			files = (
 				6AB2CA912A22703B00030B31 /* LaunchScreen.storyboard in Resources */,
 				6AB2CA8E2A22703B00030B31 /* Assets.xcassets in Resources */,
-				6AB2CA8C2A22703900030B31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6AB2CA952A22703B00030B31 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AB2CA9F2A22703B00030B31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,15 +248,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AB2CA9D2A22703B00030B31 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AB2CAA82A22703B00030B31 /* DesafioCarrefourUITestsLaunchTests.swift in Sources */,
-				6AB2CAA62A22703B00030B31 /* DesafioCarrefourUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,22 +256,9 @@
 			target = 6AB2CA802A22703900030B31 /* DesafioCarrefour */;
 			targetProxy = 6AB2CA982A22703B00030B31 /* PBXContainerItemProxy */;
 		};
-		6AB2CAA32A22703B00030B31 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6AB2CA802A22703900030B31 /* DesafioCarrefour */;
-			targetProxy = 6AB2CAA22A22703B00030B31 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6AB2CA8A2A22703900030B31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6AB2CA8B2A22703900030B31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6AB2CA8F2A22703B00030B31 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +396,6 @@
 				INFOPLIST_FILE = DesafioCarrefour/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +423,6 @@
 				INFOPLIST_FILE = DesafioCarrefour/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -526,42 +478,6 @@
 			};
 			name = Release;
 		};
-		6AB2CAB22A22703B00030B31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S78F4YJ8PD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = myanimelibrary.DesafioCarrefourUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DesafioCarrefour;
-			};
-			name = Debug;
-		};
-		6AB2CAB32A22703B00030B31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S78F4YJ8PD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = myanimelibrary.DesafioCarrefourUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DesafioCarrefour;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +504,6 @@
 			buildConfigurations = (
 				6AB2CAAF2A22703B00030B31 /* Debug */,
 				6AB2CAB02A22703B00030B31 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6AB2CAB12A22703B00030B31 /* Build configuration list for PBXNativeTarget "DesafioCarrefourUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6AB2CAB22A22703B00030B31 /* Debug */,
-				6AB2CAB32A22703B00030B31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
