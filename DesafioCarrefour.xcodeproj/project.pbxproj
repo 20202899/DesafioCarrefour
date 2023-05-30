@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A63905E2A255674005807EE /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63905D2A255674005807EE /* ViewFactory.swift */; };
+		6A6390602A255F55005807EE /* AppLocalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63905F2A255F55005807EE /* AppLocalized.swift */; };
+		6A6390622A255F74005807EE /* AppLocalized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A6390612A255F74005807EE /* AppLocalized.strings */; };
+		6A6390652A256933005807EE /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6390642A256933005807EE /* UserDetailViewController.swift */; };
+		6A6390672A256B19005807EE /* UserReposViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6390662A256B19005807EE /* UserReposViewModel.swift */; };
+		6A6390692A256B2E005807EE /* UserReposViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6390682A256B2E005807EE /* UserReposViewModelProtocol.swift */; };
+		6A63906B2A256EDD005807EE /* UserRepos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A63906A2A256EDD005807EE /* UserRepos.swift */; };
+		6AB2CA852A22703900030B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CA842A22703900030B31 /* AppDelegate.swift */; };
+		6AB2CA872A22703900030B31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CA862A22703900030B31 /* SceneDelegate.swift */; };
+		6AB2CA892A22703900030B31 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CA882A22703900030B31 /* UsersViewController.swift */; };
+		6AB2CA8E2A22703B00030B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB2CA8D2A22703B00030B31 /* Assets.xcassets */; };
+		6AB2CA912A22703B00030B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB2CA8F2A22703B00030B31 /* LaunchScreen.storyboard */; };
+		6AB2CA9C2A22703B00030B31 /* DesafioCarrefourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CA9B2A22703B00030B31 /* DesafioCarrefourTests.swift */; };
+		6AB2CABA2A22722D00030B31 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAB92A22722D00030B31 /* APICall.swift */; };
+		6AB2CABC2A22737400030B31 /* ApiLocalized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AB2CABB2A22737400030B31 /* ApiLocalized.strings */; };
+		6AB2CAC22A2274EC00030B31 /* ApiLocalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAC12A2274EC00030B31 /* ApiLocalized.swift */; };
+		6AB2CAC52A2277A500030B31 /* LocalizedStringable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAC42A2277A500030B31 /* LocalizedStringable.swift */; };
+		6AB2CAC82A227C3200030B31 /* GithubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAC72A227C3200030B31 /* GithubRepository.swift */; };
+		6AB2CACA2A227C5B00030B31 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAC92A227C5B00030B31 /* Requestable.swift */; };
+		6AB2CACD2A2426C700030B31 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CACC2A2426C700030B31 /* User.swift */; };
+		6AB2CAD22A242BE800030B31 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAD12A242BE800030B31 /* UsersViewModel.swift */; };
+		6AB2CAD52A242C7E00030B31 /* UsersViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAD42A242C7E00030B31 /* UsersViewModelProtocol.swift */; };
+		6AB2CAD82A24301C00030B31 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAD72A24301C00030B31 /* AppCoordinator.swift */; };
+		6AB2CADA2A24302D00030B31 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAD92A24302D00030B31 /* Coordinator.swift */; };
+		6AB2CADC2A2431A500030B31 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CADB2A2431A500030B31 /* ViewControllerFactory.swift */; };
+		6AB2CADE2A2431DF00030B31 /* ViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CADD2A2431DF00030B31 /* ViewModelFactory.swift */; };
+		6AB2CAE02A24321500030B31 /* RepositoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CADF2A24321500030B31 /* RepositoryFactory.swift */; };
+		6AB2CAE22A2455C100030B31 /* ApiLocalized.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AB2CAE12A2455C100030B31 /* ApiLocalized.plist */; };
+		6AB2CAE42A24569D00030B31 /* PropertyListable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2CAE32A24569D00030B31 /* PropertyListable.swift */; };
+		6AD2C08D2A250A0300C3CB5A /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2C08C2A250A0300C3CB5A /* UsersView.swift */; };
+		6AD2C08F2A250DFF00C3CB5A /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2C08E2A250DFF00C3CB5A /* UserCollectionViewCell.swift */; };
+		6AD2C0912A2510D000C3CB5A /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2C0902A2510D000C3CB5A /* UIImageView+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AB2CA982A22703B00030B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AB2CA792A22703900030B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB2CA802A22703900030B31;
+			remoteInfo = DesafioCarrefour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A63905D2A255674005807EE /* ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
+		6A63905F2A255F55005807EE /* AppLocalized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLocalized.swift; sourceTree = "<group>"; };
+		6A6390612A255F74005807EE /* AppLocalized.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = AppLocalized.strings; sourceTree = "<group>"; };
+		6A6390642A256933005807EE /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		6A6390662A256B19005807EE /* UserReposViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReposViewModel.swift; sourceTree = "<group>"; };
+		6A6390682A256B2E005807EE /* UserReposViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReposViewModelProtocol.swift; sourceTree = "<group>"; };
+		6A63906A2A256EDD005807EE /* UserRepos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepos.swift; sourceTree = "<group>"; };
+		6AB2CA812A22703900030B31 /* DesafioCarrefour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioCarrefour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB2CA842A22703900030B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AB2CA862A22703900030B31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6AB2CA882A22703900030B31 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		6AB2CA8D2A22703B00030B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AB2CA902A22703B00030B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AB2CA922A22703B00030B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AB2CA972A22703B00030B31 /* DesafioCarrefourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioCarrefourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB2CA9B2A22703B00030B31 /* DesafioCarrefourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCarrefourTests.swift; sourceTree = "<group>"; };
+		6AB2CAB92A22722D00030B31 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		6AB2CABB2A22737400030B31 /* ApiLocalized.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ApiLocalized.strings; sourceTree = "<group>"; };
+		6AB2CAC12A2274EC00030B31 /* ApiLocalized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiLocalized.swift; sourceTree = "<group>"; };
+		6AB2CAC42A2277A500030B31 /* LocalizedStringable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringable.swift; sourceTree = "<group>"; };
+		6AB2CAC72A227C3200030B31 /* GithubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRepository.swift; sourceTree = "<group>"; };
+		6AB2CAC92A227C5B00030B31 /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		6AB2CACC2A2426C700030B31 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6AB2CAD12A242BE800030B31 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		6AB2CAD42A242C7E00030B31 /* UsersViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModelProtocol.swift; sourceTree = "<group>"; };
+		6AB2CAD72A24301C00030B31 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		6AB2CAD92A24302D00030B31 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6AB2CADB2A2431A500030B31 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		6AB2CADD2A2431DF00030B31 /* ViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFactory.swift; sourceTree = "<group>"; };
+		6AB2CADF2A24321500030B31 /* RepositoryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryFactory.swift; sourceTree = "<group>"; };
+		6AB2CAE12A2455C100030B31 /* ApiLocalized.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ApiLocalized.plist; sourceTree = "<group>"; };
+		6AB2CAE32A24569D00030B31 /* PropertyListable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListable.swift; sourceTree = "<group>"; };
+		6AD2C08C2A250A0300C3CB5A /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		6AD2C08E2A250DFF00C3CB5A /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		6AD2C0902A2510D000C3CB5A /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AB2CA7E2A22703900030B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB2CA942A22703B00030B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A6390632A256922005807EE /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6A6390642A256933005807EE /* UserDetailViewController.swift */,
+				6A6390662A256B19005807EE /* UserReposViewModel.swift */,
+			);
+			path = UserDetail;
+			sourceTree = "<group>";
+		};
+		6AB2CA782A22703900030B31 = {
+			isa = PBXGroup;
+			children = (
+				6AB2CA832A22703900030B31 /* DesafioCarrefour */,
+				6AB2CA9A2A22703B00030B31 /* DesafioCarrefourTests */,
+				6AB2CA822A22703900030B31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AB2CA822A22703900030B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CA812A22703900030B31 /* DesafioCarrefour.app */,
+				6AB2CA972A22703B00030B31 /* DesafioCarrefourTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AB2CA832A22703900030B31 /* DesafioCarrefour */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CAB42A22705400030B31 /* System */,
+				6AB2CAB62A22707100030B31 /* Resources */,
+				6AB2CAC32A22779000030B31 /* Utils */,
+				6AB2CABE2A2273A000030B31 /* Extensions */,
+				6AB2CAB82A22710C00030B31 /* Network */,
+				6AB2CAC62A227BDA00030B31 /* Repositories */,
+				6AB2CAB52A22706900030B31 /* App */,
+			);
+			path = DesafioCarrefour;
+			sourceTree = "<group>";
+		};
+		6AB2CA9A2A22703B00030B31 /* DesafioCarrefourTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CA9B2A22703B00030B31 /* DesafioCarrefourTests.swift */,
+			);
+			path = DesafioCarrefourTests;
+			sourceTree = "<group>";
+		};
+		6AB2CAB42A22705400030B31 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CAE12A2455C100030B31 /* ApiLocalized.plist */,
+				6AB2CA922A22703B00030B31 /* Info.plist */,
+				6AB2CA842A22703900030B31 /* AppDelegate.swift */,
+				6AB2CA862A22703900030B31 /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		6AB2CAB52A22706900030B31 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CAD72A24301C00030B31 /* AppCoordinator.swift */,
+				6AB2CAD62A242E6C00030B31 /* Factories */,
+				6AB2CAD32A242C0C00030B31 /* Protocols */,
+				6AB2CAB72A22709300030B31 /* Scenes */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6AB2CAB62A22707100030B31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CACE2A242BA400030B31 /* Sources */,
+				6AB2CA8D2A22703B00030B31 /* Assets.xcassets */,
+				6AB2CA8F2A22703B00030B31 /* LaunchScreen.storyboard */,
+				6AB2CABB2A22737400030B31 /* ApiLocalized.strings */,
+				6A6390612A255F74005807EE /* AppLocalized.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6AB2CAB72A22709300030B31 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6A6390632A256922005807EE /* UserDetail */,
+				6AB2CACF2A242BBF00030B31 /* Users */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6AB2CAB82A22710C00030B31 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CAB92A22722D00030B31 /* APICall.swift */,
+				6AB2CAC92A227C5B00030B31 /* Requestable.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6AB2CABE2A2273A000030B31 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6AD2C0902A2510D000C3CB5A /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6AB2CAC32A22779000030B31 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CAC42A2277A500030B31 /* LocalizedStringable.swift */,
+				6AB2CAD92A24302D00030B31 /* Coordinator.swift */,
+				6AB2CAE32A24569D00030B31 /* PropertyListable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6AB2CAC62A227BDA00030B31 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CACB2A2426B300030B31 /* Models */,
+				6AB2CAC72A227C3200030B31 /* GithubRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6AB2CACB2A2426B300030B31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CACC2A2426C700030B31 /* User.swift */,
+				6A63906A2A256EDD005807EE /* UserRepos.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6AB2CACE2A242BA400030B31 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CAC12A2274EC00030B31 /* ApiLocalized.swift */,
+				6A63905F2A255F55005807EE /* AppLocalized.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6AB2CACF2A242BBF00030B31 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				6AD2C08B2A2509F200C3CB5A /* Views */,
+				6AB2CA882A22703900030B31 /* UsersViewController.swift */,
+				6AB2CAD12A242BE800030B31 /* UsersViewModel.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		6AB2CAD32A242C0C00030B31 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CAD42A242C7E00030B31 /* UsersViewModelProtocol.swift */,
+				6A6390682A256B2E005807EE /* UserReposViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6AB2CAD62A242E6C00030B31 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				6AB2CADB2A2431A500030B31 /* ViewControllerFactory.swift */,
+				6AB2CADD2A2431DF00030B31 /* ViewModelFactory.swift */,
+				6AB2CADF2A24321500030B31 /* RepositoryFactory.swift */,
+				6A63905D2A255674005807EE /* ViewFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		6AD2C08B2A2509F200C3CB5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AD2C08C2A250A0300C3CB5A /* UsersView.swift */,
+				6AD2C08E2A250DFF00C3CB5A /* UserCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AB2CA802A22703900030B31 /* DesafioCarrefour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB2CAAB2A22703B00030B31 /* Build configuration list for PBXNativeTarget "DesafioCarrefour" */;
+			buildPhases = (
+				6AB2CA7D2A22703900030B31 /* Sources */,
+				6AB2CA7E2A22703900030B31 /* Frameworks */,
+				6AB2CA7F2A22703900030B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioCarrefour;
+			productName = DesafioCarrefour;
+			productReference = 6AB2CA812A22703900030B31 /* DesafioCarrefour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AB2CA962A22703B00030B31 /* DesafioCarrefourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB2CAAE2A22703B00030B31 /* Build configuration list for PBXNativeTarget "DesafioCarrefourTests" */;
+			buildPhases = (
+				6AB2CA932A22703B00030B31 /* Sources */,
+				6AB2CA942A22703B00030B31 /* Frameworks */,
+				6AB2CA952A22703B00030B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AB2CA992A22703B00030B31 /* PBXTargetDependency */,
+			);
+			name = DesafioCarrefourTests;
+			productName = DesafioCarrefourTests;
+			productReference = 6AB2CA972A22703B00030B31 /* DesafioCarrefourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AB2CA792A22703900030B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6AB2CA802A22703900030B31 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					6AB2CA962A22703B00030B31 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6AB2CA802A22703900030B31;
+					};
+				};
+			};
+			buildConfigurationList = 6AB2CA7C2A22703900030B31 /* Build configuration list for PBXProject "DesafioCarrefour" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AB2CA782A22703900030B31;
+			productRefGroup = 6AB2CA822A22703900030B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AB2CA802A22703900030B31 /* DesafioCarrefour */,
+				6AB2CA962A22703B00030B31 /* DesafioCarrefourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AB2CA7F2A22703900030B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB2CA912A22703B00030B31 /* LaunchScreen.storyboard in Resources */,
+				6AB2CAE22A2455C100030B31 /* ApiLocalized.plist in Resources */,
+				6A6390622A255F74005807EE /* AppLocalized.strings in Resources */,
+				6AB2CABC2A22737400030B31 /* ApiLocalized.strings in Resources */,
+				6AB2CA8E2A22703B00030B31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB2CA952A22703B00030B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AB2CA7D2A22703900030B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB2CAE42A24569D00030B31 /* PropertyListable.swift in Sources */,
+				6A63906B2A256EDD005807EE /* UserRepos.swift in Sources */,
+				6A6390672A256B19005807EE /* UserReposViewModel.swift in Sources */,
+				6AB2CAD82A24301C00030B31 /* AppCoordinator.swift in Sources */,
+				6AB2CADC2A2431A500030B31 /* ViewControllerFactory.swift in Sources */,
+				6AB2CAC52A2277A500030B31 /* LocalizedStringable.swift in Sources */,
+				6AB2CADE2A2431DF00030B31 /* ViewModelFactory.swift in Sources */,
+				6AD2C08D2A250A0300C3CB5A /* UsersView.swift in Sources */,
+				6A6390692A256B2E005807EE /* UserReposViewModelProtocol.swift in Sources */,
+				6AB2CADA2A24302D00030B31 /* Coordinator.swift in Sources */,
+				6AB2CAD52A242C7E00030B31 /* UsersViewModelProtocol.swift in Sources */,
+				6A6390652A256933005807EE /* UserDetailViewController.swift in Sources */,
+				6AB2CACA2A227C5B00030B31 /* Requestable.swift in Sources */,
+				6AB2CA892A22703900030B31 /* UsersViewController.swift in Sources */,
+				6AD2C0912A2510D000C3CB5A /* UIImageView+Extensions.swift in Sources */,
+				6AB2CA852A22703900030B31 /* AppDelegate.swift in Sources */,
+				6AB2CABA2A22722D00030B31 /* APICall.swift in Sources */,
+				6AB2CAE02A24321500030B31 /* RepositoryFactory.swift in Sources */,
+				6AD2C08F2A250DFF00C3CB5A /* UserCollectionViewCell.swift in Sources */,
+				6AB2CACD2A2426C700030B31 /* User.swift in Sources */,
+				6AB2CAC22A2274EC00030B31 /* ApiLocalized.swift in Sources */,
+				6AB2CAC82A227C3200030B31 /* GithubRepository.swift in Sources */,
+				6AB2CA872A22703900030B31 /* SceneDelegate.swift in Sources */,
+				6A63905E2A255674005807EE /* ViewFactory.swift in Sources */,
+				6AB2CAD22A242BE800030B31 /* UsersViewModel.swift in Sources */,
+				6A6390602A255F55005807EE /* AppLocalized.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB2CA932A22703B00030B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB2CA9C2A22703B00030B31 /* DesafioCarrefourTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AB2CA992A22703B00030B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AB2CA802A22703900030B31 /* DesafioCarrefour */;
+			targetProxy = 6AB2CA982A22703B00030B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AB2CA8F2A22703B00030B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AB2CA902A22703B00030B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AB2CAA92A22703B00030B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AB2CAAA2A22703B00030B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AB2CAAC2A22703B00030B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S78F4YJ8PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioCarrefour/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myanimelibrary.DesafioCarrefour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AB2CAAD2A22703B00030B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S78F4YJ8PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioCarrefour/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myanimelibrary.DesafioCarrefour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AB2CAAF2A22703B00030B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S78F4YJ8PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myanimelibrary.DesafioCarrefourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioCarrefour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DesafioCarrefour";
+			};
+			name = Debug;
+		};
+		6AB2CAB02A22703B00030B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S78F4YJ8PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myanimelibrary.DesafioCarrefourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioCarrefour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DesafioCarrefour";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AB2CA7C2A22703900030B31 /* Build configuration list for PBXProject "DesafioCarrefour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB2CAA92A22703B00030B31 /* Debug */,
+				6AB2CAAA2A22703B00030B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB2CAAB2A22703B00030B31 /* Build configuration list for PBXNativeTarget "DesafioCarrefour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB2CAAC2A22703B00030B31 /* Debug */,
+				6AB2CAAD2A22703B00030B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB2CAAE2A22703B00030B31 /* Build configuration list for PBXNativeTarget "DesafioCarrefourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB2CAAF2A22703B00030B31 /* Debug */,
+				6AB2CAB02A22703B00030B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AB2CA792A22703900030B31 /* Project object */;
+}

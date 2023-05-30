@@ -1,0 +1,9 @@
+/* 
+ ApiLocalized.strings
+  DesafioCarrefour
+
+  Created by Carlos Silva on 27/05/23.
+  
+*/
+"users" = "?per_page=100";
+"repos" = "repos";
