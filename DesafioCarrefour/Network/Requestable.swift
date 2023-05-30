@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: protocolo que define uma 
+// MARK: protocolo que define um comportamento para requisições genericas
 protocol Requestable {
     func request<T>(apiCall: APICall, completion: @escaping (Result<T, HTTPErrorType>) -> Void) where T: Decodable
 }
