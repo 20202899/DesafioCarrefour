@@ -1,0 +1,10 @@
+/* 
+  AppLocalized.strings
+  DesafioCarrefour
+
+  Created by Carlos Silva on 29/05/23.
+  
+*/
+
+"titleUsers" = "Github Users";
+"titleSearchUser" = "Search User";
